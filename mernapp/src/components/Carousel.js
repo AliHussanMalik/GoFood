@@ -33,7 +33,7 @@ export default function Carousel() {
         </div>
         <form className="form-inline">
     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    {/* <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
   </form>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -58,7 +58,7 @@ export default function Carousel() {
             />
           </div>
         </div>
-        <button
+        {/* <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
@@ -81,9 +81,8 @@ export default function Carousel() {
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Next</span>
-        </button>
+        </button> */}
       </div>
-      {/* {" "} */}
     </div>
   );
 }

@@ -28,12 +28,12 @@ export default function navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/login">
+            <Link className="nav-link active" to="/login">
               Login
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-linl" to="/createuser">Signup</Link>
+            <Link className="nav-link active" to="/createuser">Signup</Link>
           </li>
         </div>
       </div>
